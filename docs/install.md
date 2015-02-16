@@ -24,3 +24,14 @@
 
     visit localhost:3000
 
+
+## mongo 
+
+    // install mongodb (osx)
+    brew install mongodb
+    // start mongo
+    mongod --dbpath data // <path to data directory>
+    // open a new shell
+    mongo
+    > use nemseed
+    > exit
